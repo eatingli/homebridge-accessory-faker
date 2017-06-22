@@ -1,0 +1,16 @@
+{
+  "name": "homebridge-accessory-faker",
+  "version": "1.0.0",
+  "description": "http(s) plugin for Homebridge: https://github.com/nfarina/homebridge",
+  "author": {
+    "name": "Eating Li"
+  },
+  "license": "ISC",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  }
+}
