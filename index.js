@@ -1,4 +1,5 @@
-const factory = require('./services/lightbulb.js');
+// const factory = require('./services/lightbulb.js');
+const factory = require('./playground/lightbulb.js');
 // const factory = require('./services/camera-control.js');
 // const factory = require('./services/camera-rtp-stream-management.js');
 // const factory = require('./services/thermostat.js');
