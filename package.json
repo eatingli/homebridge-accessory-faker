@@ -1,7 +1,7 @@
 {
   "name": "homebridge-accessory-faker",
   "version": "1.0.0",
-  "description": "http(s) plugin for Homebridge: https://github.com/nfarina/homebridge",
+  "description": "Faker-Plugin for Homebridge: https://github.com/nfarina/homebridge",
   "author": {
     "name": "Eating Li"
   },

@@ -24,7 +24,7 @@ color.on('update', (rgb) => {
 })
 
 function factory(Service, Characteristic) {
-    const service = new Service.Lightbulb('Hello Lightbulb');
+    const service = new Service.Lightbulb('Arduino RGB');
 
     service.getCharacteristic(Characteristic.On)
         .on('set', (value, callback) => {

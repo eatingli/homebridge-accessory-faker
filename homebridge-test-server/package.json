@@ -1,0 +1,13 @@
+{
+  "name": "homebridge-test",
+  "version": "1.0.0",
+  "main": "./app/main.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./app/main.js"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "serialport": "^4.0.7"
+  }
+}
