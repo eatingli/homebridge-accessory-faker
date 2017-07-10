@@ -29,6 +29,9 @@ function factory(Service, Characteristic) {
     service.getCharacteristic(Characteristic.On)
         .on('set', (value, callback) => {
             console.log('Set On ', value);
+            if (value == false) {
+                color.setBrightness(0);
+            }
             callback();
         })
 
