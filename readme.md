@@ -15,6 +15,8 @@
 
 2. 其中必要的 `config.json` 檔案位在此專案的 reference 資料夾下。
 
+3. `config.json` 預設要放在 `~/.homebridge/config.json`
+
 3. 用 -P 指定 Plugins 路徑。
     ```
     $ homebridge -D -U ~/.homebridge-dev -P ../my-great-plugin/
